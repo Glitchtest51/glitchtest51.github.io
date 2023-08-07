@@ -1,4 +1,4 @@
-const textElement = document.getElementById("Glitchtest.dev");
+const textElement = document.getElementById("Glitchtest.site");
 
 const typeText = (text, delay) => {
   let i = 0;
@@ -12,4 +12,4 @@ const typeText = (text, delay) => {
   }, delay);
 };
 
-typeText("Glitchtest.dev", 100);
+typeText("Glitchtest", 100);
