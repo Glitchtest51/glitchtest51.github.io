@@ -58,6 +58,7 @@ body {
 }
 
 .navbar {
+  padding: 10px, 10px;
   position: fixed;
   top: 0;
   left: 0;
