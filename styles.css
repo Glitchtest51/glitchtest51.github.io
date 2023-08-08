@@ -30,18 +30,6 @@ body {
   animation: flicker 0.5s infinite;
 }
 
-@keyframes flicker {
-  0% {
-      opacity: 1;
-  }
-  50% {
-      opacity: 0;
-  }
-  100% {
-      opacity: 1;
-  }
-}
-
 .Glitchtest.site {
   display: inline-block;
   white-space: nowrap;
@@ -127,32 +115,14 @@ body {
   font-family: quicksand;
 }
 
-@media screen and (max-width: 600px) {
-  .nav-container {
-    overflow-x: scroll;
-  }
-}s
-
-.glitch-text::after {
-  content: "_";
-  display: inline-block;
-  animation: glitch-cursor 0.5s infinite;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-}
-
-@keyframes glitch-cursor {
+@keyframes flicker {
   0% {
-    opacity: 0;
+      opacity: 1;
   }
   50% {
-    opacity: 1;
+      opacity: 0;
   }
   100% {
-    opacity: 0;
+      opacity: 1;
   }
 }
