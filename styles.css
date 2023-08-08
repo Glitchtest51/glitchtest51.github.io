@@ -67,11 +67,6 @@ body {
   overflow-x: hidden; /* Hide horizontal overflow */
 }
 
-.nav-container {
-  overflow-x: auto;
-  white-space: nowrap;
-}
-
 .nav-links {
   list-style: none;
   display: flex;
@@ -98,7 +93,6 @@ body {
   background-color: #575757; /* Replace with your desired background color */
   color: #fff; /* Replace with your desired text color */
   border-radius: 10px; /* This will give you 4 rounded corners */
-  text-decoration: none;
   overflow: hidden; /* Hide any content that overflows the container */
 }
 
