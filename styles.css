@@ -67,6 +67,11 @@ body {
   overflow-x: hidden; /* Hide horizontal overflow */
 }
 
+.nav-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
 .nav-links {
   list-style: none;
   display: flex;
