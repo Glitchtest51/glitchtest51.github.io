@@ -58,11 +58,11 @@ body {
 }
 
 .navbar {
-  padding: 10px, 10px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  padding: 10px 20px;
   box-sizing: border-box;
   overflow-x: hidden; /* Hide horizontal overflow */
 }
