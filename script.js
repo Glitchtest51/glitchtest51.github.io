@@ -13,7 +13,7 @@ const typeText = (text, delay) => {
     const subText = text.substring(0, i + 1);
     textElement.textContent = subText;
     
-    const typingSound = new Audio("assets/key.wav");
+    const typingSound = new Audio(baseURL +"/assets/key.wav");
     typingSound.play();
     
     i++;
