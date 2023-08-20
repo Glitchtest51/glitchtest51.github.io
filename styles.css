@@ -9,8 +9,8 @@ body {
 }
 
 .home {
-  width: 45px;
-  height: 45px;
+  width: 70px;
+  height: 70px;
   transition: transform 0.2s; /* Smooth transition for the scale effect */
 }
 
