@@ -1,0 +1,6 @@
+exclude:
+  - LICENSE
+  - README.md
+include:
+  - .well-known
+  - .well-known/discord
