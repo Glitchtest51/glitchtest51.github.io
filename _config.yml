@@ -1,4 +1,4 @@
 exclude:
   - README.md
 include:
-  - .well-known/discord
+  - .well-known
