@@ -79,7 +79,6 @@ body {
 .nav-links li {
   /* Set a fixed width and height for each link */
   height: 60px;
-  width: 100%;
   display: flex;
   flex-grow: 1;
   transition: transform 0.2s; /* Smooth transition for the scale effect */
