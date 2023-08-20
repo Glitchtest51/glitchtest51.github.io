@@ -9,8 +9,8 @@ body {
 }
 
 .home {
-  width: 70px;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   transition: transform 0.2s; /* Smooth transition for the scale effect */
 }
 
@@ -78,7 +78,8 @@ body {
 
 .nav-links li {
   /* Set a fixed width and height for each link */
-  height: 70px;
+  height: 60px;
+  width: 100%;
   display: flex;
   flex-grow: 1;
   transition: transform 0.2s; /* Smooth transition for the scale effect */
