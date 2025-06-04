@@ -15,7 +15,9 @@ const typeText = (text, delay) => {
       try {
         typingSound.currentTime = 0;
         typingSound.play();
-      } catch (e) {}
+      } catch (e) {
+        console.error('Error playing typing sound:', e);
+      }
     }
     i++;
   }, delay);
