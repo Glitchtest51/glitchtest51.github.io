@@ -22,7 +22,6 @@ body {
   color: white;
   font-size: 50px;
   margin-left: 100px; /* Adjust the distance from the left side */
-  font-family: quicksand, sans-serif;
 }
 
 .flashing-underscore {
