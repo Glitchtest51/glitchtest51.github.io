@@ -1,6 +1,6 @@
 const textElement = document.getElementById("glitchtest-site");
 
-const typingSound = new Audio("/assets/key.wav");
+const typingSound = new Audio("assets/key.wav");
 typingSound.preload = "auto";
 
 const typeText = (text, delay) => {
