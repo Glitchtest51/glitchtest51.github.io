@@ -6,6 +6,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   height: 100vh;
+  font-family: quicksand, sans-serif;
 }
 
 .home {
@@ -14,14 +15,14 @@ body {
   transition: transform 0.2s; /* Smooth transition for the scale effect */
 }
 
-.Main-Text {
+.main-text {
   display: flex;
   align-items: center;
   position: relative;
-  font-family: quicksand;
   color: white;
   font-size: 50px;
   margin-left: 100px; /* Adjust the distance from the left side */
+  font-family: quicksand, sans-serif;
 }
 
 .flashing-underscore {
@@ -30,7 +31,7 @@ body {
   animation: flicker 0.5s infinite;
 }
 
-.Glitchtest.site {
+.glitchtest-site {
   display: inline-block;
   white-space: nowrap;
 }
@@ -41,10 +42,6 @@ body {
 
 .scale-110:hover {
   transform: scale(1.1); /* Apply the scale effect on hover */
-}
-
-.scale-90:hover {
-  transform: scale(0.9); /* Apply the scale effect on hover */
 }
 
 .cursor-pointer {
@@ -74,6 +71,8 @@ body {
   position: fixed;
   top: 20px;
   right: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 .nav-links li {
@@ -97,8 +96,8 @@ body {
 }
 
 .nav-links li a img {
-  width: height;
-  height: 100%;
+  width: 32px;
+  height: 32px;
 }
 
 .nav-links li a span {

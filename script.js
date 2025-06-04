@@ -1,4 +1,7 @@
-const textElement = document.getElementById("Glitchtest.site");
+const textElement = document.getElementById("glitchtest-site");
+
+const typingSound = new Audio("/assets/key.wav");
+typingSound.preload = "auto";
 
 const typeText = (text, delay) => {
   let i = 0;
@@ -7,11 +10,13 @@ const typeText = (text, delay) => {
       clearInterval(interval);
     }
     const subText = text.substring(0, i + 1);
-    textElement.textContent = subText;
-      
-    const typingSound = new Audio("/assets/key.wav");
-    typingSound.play();
-    
+    if (textElement) {
+      textElement.textContent = subText;
+      try {
+        typingSound.currentTime = 0;
+        typingSound.play();
+      } catch (e) {}
+    }
     i++;
   }, delay);
 };
